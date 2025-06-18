@@ -11,7 +11,7 @@
 <body>
 
 <header>
-    <h1>Bienvenue sur Ma Landing Page</h1>
+    <h1>Bienvenue DIMITRI</h1>
 </header>
 
 <section class="hero">
