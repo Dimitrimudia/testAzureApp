@@ -4,10 +4,12 @@ require_once 'vendor/autoload.php';
 use MicrosoftAzure\Storage\Blob\BlobRestProxy;
 use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
 use MicrosoftAzure\Storage\Blob\Models\CreateBlockBlobOptions;
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
 
 // Remplace par tes informations Azure
 //$connectionString = "DefaultEndpointsProtocol=https;AccountName=TON_COMPTE;AccountKey=TA_CLE;EndpointSuffix=core.windows.net";
-$connectionString = "DefaultEndpointsProtocol=https;AccountName=runnerdb;AccountKey=Ep/PIyv4Rq4FVFo/cLzU3e69ulWxohtZN1M77vJfMEptcGhAKUOs0XCXR4Tq579va1cqcbnkeeSr+AStV1bFBA==;EndpointSuffix=core.windows.net";
+$connectionString = $_ENV['AZURE_CONNECTION_STRING'];
 $containerName = "photos";
 
 $blobClient = BlobRestProxy::createBlobService($connectionString);
