@@ -6,8 +6,9 @@ use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
 use MicrosoftAzure\Storage\Blob\Models\CreateBlockBlobOptions;
 
 // Remplace par tes informations Azure
-$connectionString = "DefaultEndpointsProtocol=https;AccountName=TON_COMPTE;AccountKey=TA_CLE;EndpointSuffix=core.windows.net";
-$containerName = "ton-conteneur";
+//$connectionString = "DefaultEndpointsProtocol=https;AccountName=TON_COMPTE;AccountKey=TA_CLE;EndpointSuffix=core.windows.net";
+$connectionString = "DefaultEndpointsProtocol=https;AccountName=runnerdb;AccountKey=Ep/PIyv4Rq4FVFo/cLzU3e69ulWxohtZN1M77vJfMEptcGhAKUOs0XCXR4Tq579va1cqcbnkeeSr+AStV1bFBA==;EndpointSuffix=core.windows.net";
+$containerName = "photos";
 
 $blobClient = BlobRestProxy::createBlobService($connectionString);
 
