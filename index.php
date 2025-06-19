@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Ma Landing Page</title>
 
-
 </head>
 <body>
 
