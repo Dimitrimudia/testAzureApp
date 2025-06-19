@@ -8,7 +8,6 @@ $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 
 // Remplace par tes informations Azure
-//$connectionString = "DefaultEndpointsProtocol=https;AccountName=TON_COMPTE;AccountKey=TA_CLE;EndpointSuffix=core.windows.net";
 $connectionString = $_ENV['AZURE_CONNECTION_STRING'];
 $containerName = "photos";
 
