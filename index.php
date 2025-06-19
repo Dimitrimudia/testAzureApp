@@ -15,7 +15,7 @@
 <section class="hero">
     <h1>Découvrez Notre Solution</h1>
     <p>Améliorez vos performances et atteignez vos objectifs avec notre produit.</p>
-    <a href="form.php" class="cta-button">Commencer maintenant</a>
+    <a href="identification.php" class="cta-button">Commencer maintenant</a>
 </section>
 
 <section class="features">
