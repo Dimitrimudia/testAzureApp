@@ -1,0 +1,59 @@
+# Système
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.swp
+
+# Environnements
+.env
+.env.local
+.env.*.local
+
+# Cache et sessions
+cache/
+tmp/
+storage/
+sessions/
+
+# Dépendances Composer
+/vendor/
+
+# Dépendances Node.js (si utilisé pour le front)
+node_modules/
+
+# Fichiers générés par Composer
+composer.lock
+
+# Fichiers générés par PHPStorm ou autres IDE
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+
+# Fichiers de build
+/public/build/
+/public/storage/
+
+# Tests
+phpunit.xml
+phpunit.result.cache
+
+# Couverture de code
+coverage/
+
+# Config spécifique aux OS
+*.bak
+*.orig
+
+# Autres fichiers à ignorer
+*.zip
+*.tar.gz
+
+# Ignorer les fichiers uploadés
+/uploads/

@@ -73,7 +73,7 @@
                     <div id="result" class="mt-4 text-center"></div>
 
                     <div class="text-center mt-3">
-                        <a href="index.html">Retour à la page d'accueil</a>
+                        <a href="index.php">Retour à la page d'accueil</a>
                     </div>
                 </div>
             </div>
@@ -101,8 +101,6 @@
             });
         });
     </script>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
